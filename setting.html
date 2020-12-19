@@ -7,19 +7,20 @@
 
  <body>
     <center>
-        <h1>Настройки</h1>
+        <h1>���������</h1>
     </center>
     <form action="setting.php" method="post">
-        <p><input type="text" name="token"> Токен DonationAlerts</p>
-        <p><input type="number" name="time"> Длительность доната(мс)</p>
-        <p><input type="text" name="soundannouncement"> Анонсер доната(точная ссылка на файл)(в самом коде можно указать несколько. В массиве soundannouncement)</p>
-        <p><input type="text" name="animstart" value="text-focus-in"> Название анимации показа среди тех, которые есть в style.css</p>
-        <p><input type="text" name="animbreak" value="text-focus-out"> Название анимации прекращения оповещения, опять же среди тех, которые есть в style.css</p>
-        <p><input type="number" name="timeanim" value="2000"> Длительность animbreak(можно посмотреть в css файле)</p>
-        <input type="submit" value="Создать кфг">
+        <p><input type="text" name="token"> ����� DonationAlerts <a href="https://www.donationalerts.com/dashboard/general">���</a></p>
+        <p><input type="number" name="time"> ������������ ������(��)</p>
+        <p><input type="text" name="soundannouncement" value="https://dapanel.herokuapp.com/index.html"> ������� ������ (������)</p>
+        <p><input type="text" name="animstart" value="text-focus-in"> �������� ������ (�� ������)</p>
+        <p><input type="text" name="animbreak" value="text-focus-out"> �������� ����������� ���������� (�� ������)</p>
+        <p><input type="number" name="timeanim" value="2000"> ������������ animbreak (�� ������)</p>
+        <input type="submit" value="������� ���">
     </form>
     <p>
-        <font color="gray">*По умолчанию стоят анимации - фокусировка оповещения и разфокус его же на конец, и стоит соответственное время анимаци "закрывашки".</font>
+        <font color="gray">*��� � �������� ����������!.</font>	
+        
     </p>
  </body>
 </html>
